@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
-.shop, .home ,.about-us,.cart {
+.shop, .home ,.about-us,.cart ,.description li{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -181,4 +181,55 @@ margin: 0 auto;
     background-color:#E95A08 ;
     color: #FFFFFF;
     margin-top: 30px;
+}
+.section2{
+    height: 597px;
+    width:1140px;
+    
+    margin:210px auto ;
+    display: flex;
+    gap: 60px;
+
+}
+.description{
+    height: 521px;
+    width: 540px;
+    
+    margin-top: 38px;
+   
+}
+.description h1{
+    height: 137px;
+    width: 540px;
+    
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+}
+.description ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+    margin-top: 20px;
+   
+}
+.description li{
+    height: 108px;
+    width: 500px;
+    
+    font-size: 1.375rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    
+    
+    
+   
+  
+
+   
+    
 }
